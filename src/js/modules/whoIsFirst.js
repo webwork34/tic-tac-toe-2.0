@@ -12,7 +12,7 @@ export default function whoIsFirst(){
     activePlayer();
   }else if(objVar.first === 2){
     objVar.playerOneFirstStep = false;
-    markOne.textContent = '0';
+    markOne.textContent = 'O';
     markTwo.textContent = 'X';
     activePlayer();
   }
